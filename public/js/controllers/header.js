@@ -4,10 +4,10 @@ angular.module('mean.system').controller('HeaderController', ['$scope', 'Global'
     $scope.global = Global;
 
     $scope.menu = [{
-        'title': 'Articles',
+        'title': 'Статьи',
         'link': 'articles'
     }, {
-        'title': 'Create New Article',
+        'title': 'Создать новую Статью',
         'link': 'articles/create'
     }];
     
